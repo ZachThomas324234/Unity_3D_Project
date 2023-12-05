@@ -54,6 +54,7 @@ public class KarlsonMove : MonoBehaviour {
         playerScale =  transform.localScale;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        transform.rotation = Quaternion.LookRotation(Camera.main.transform.forward, Camera.main.transform.up);
     }
 
     
