@@ -10,7 +10,11 @@ public class PlayerAnimation : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            animRight.Play("Punch L");
+            animRight.Play("Armature|Punch L");
+        }
+        else if(Input.GetMouseButtonDown(1))
+        {
+            animRight.Play("Armature|ArmatureAction");
         }
     }
 }
