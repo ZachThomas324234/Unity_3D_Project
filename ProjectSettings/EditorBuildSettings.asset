@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MoodyNight.unity
+    path: Assets/Scenes/MainGame.unity
     guid: 6c5afed758d9dde4d96232ce7a139e63
   - enabled: 1
     path: Assets/Scenes/Settings.unity
@@ -14,5 +14,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 86afe7eac8cff38478edaa885ac4a688
+  - enabled: 1
+    path: Assets/Scenes/Secret.unity
+    guid: 506647e5dca64f249af182ea893c8c7e
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
